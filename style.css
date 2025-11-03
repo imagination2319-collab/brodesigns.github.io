@@ -1,0 +1,136 @@
+/* style.css - Soft Dark Blue Theme */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #eaf4ff;
+  text-align: center;
+  scroll-behavior: smooth;
+}
+
+/* HEADER */
+header {
+  background: rgba(15, 32, 47, 0.8);
+  color: #eaf4ff;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 2px 15px rgba(0,0,0,0.5);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+header h1 span {
+  color: #4fc3f7;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #eaf4ff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #4fc3f7;
+}
+
+/* HERO SECTION */
+.hero {
+  background: linear-gradient(120deg, #0f2027, #2c5364);
+  color: #eaf4ff;
+  padding: 100px 20px;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+}
+
+.hero-content h2 {
+  font-size: 2.5rem;
+  color: #eaf4ff;
+}
+
+.hero-content p {
+  font-size: 1.1rem;
+  margin: 15px auto 30px;
+  max-width: 600px;
+  color: #b3e5fc;
+}
+
+.btn {
+  background: #4fc3f7;
+  color: #0f2027;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #81d4fa;
+  transform: scale(1.05);
+}
+
+/* PORTFOLIO SECTION */
+#portfolio {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 60px 20px;
+}
+
+#portfolio h2 {
+  color: #4fc3f7;
+  margin-bottom: 30px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.gallery img {
+  width: 250px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+  transition: 0.4s;
+}
+
+.gallery img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 6px 20px rgba(79,195,247,0.4);
+}
+
+/* ABOUT + CONTACT */
+#about, #contact {
+  padding: 60px 20px;
+  background: rgba(255,255,255,0.07);
+  backdrop-filter: blur(8px);
+  margin: 40px 0;
+  border-radius: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+#about h2, #contact h2 {
+  color: #4fc3f7;
+}
+
+#about p, #contact p {
+  font-size: 1rem;
+  max-width: 700px;
+  margin: 10px auto;
+  line-height: 1.
+
+
